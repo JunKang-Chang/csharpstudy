@@ -11,7 +11,7 @@ namespace Demo06
         private string name;//字段
         private int age;
         private string sex;
-
+        
         public Wife(string name, int age, string sex)//构造方法,用于初始对象化赋值，如果不希望在类的外部创建对象，则用private修饰，将构造函数私有化
         {
             this.name = name;
