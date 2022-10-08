@@ -30,7 +30,7 @@ namespace Event2
             if (f != null)
             {
                 this.f = f;
-                this.f.Click += F_Click;
+                this.f.Click +=new System.EventHandler( F_Click);
             }
         }
 

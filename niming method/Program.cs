@@ -28,12 +28,12 @@ namespace niming_method
 
             mydel2 del2 = delegate ()
             {
-                Console.WriteLine("这是无参匿名方法");
+                Console.WriteLine("这是无参无返回值的匿名方法");
             };
 
             mydel3 del3 = delegate (int y)
             {
-                Console.WriteLine($"有参有返回值匿名方法输出:{y}");
+                Console.WriteLine($"这是有参有返回值匿名方法输出:{y}");
                 return (y + 1);
             };
 
