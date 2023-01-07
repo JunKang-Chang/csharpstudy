@@ -10,8 +10,9 @@ namespace Interface_1
     {
         static void Main(string[] args)
         {
-            var dr = new Driver(new LightTank());//类的接口实现(派生类有2种实现方式:继承实现和接口实现)
+            var dr = new Driver( new LightTank());
             dr.Drive();
+            dr.Veh.Run();//等价于上一行
             Console.ReadKey();
         }
     }

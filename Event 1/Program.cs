@@ -16,8 +16,7 @@ namespace Event_1
             Boy b = new Boy();//3.事件的响应者:Boy对象b
             Girl g = new Girl();
             t1.Elapsed += b.MyAction;//2.事件:Elapsed      5.事件的订阅:MyAction,用+=符号用来订阅委托
-            t1.Elapsed += g.MyAction2;
-            t1.Start();
+            t1.Elapsed += new ElapsedEventHandler(g.MyAction2);//g.MyAction2;
 
             //总结:对象b用它的MyAction方法响应t1的Elapsed事件
 
