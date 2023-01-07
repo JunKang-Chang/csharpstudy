@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30002.166
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo1", "Demo1\Demo1.csproj", "{38CB417C-3FD6-484F-A9A4-130D89F222B3}"
 EndProject
@@ -58,6 +58,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Event2", "Event2\Event2.csproj", "{B6DBADF2-DE04-4E0C-B8A7-F12BE9AF232A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Event 1", "Event 1\Event 1.csproj", "{4AC72ABC-5205-426B-A182-52D8B3288552}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test class as prop", "Test class as prop\Test class as prop.csproj", "{08157F54-A68D-4AB5-9261-3B6501B7159D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +179,10 @@ Global
 		{4AC72ABC-5205-426B-A182-52D8B3288552}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AC72ABC-5205-426B-A182-52D8B3288552}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AC72ABC-5205-426B-A182-52D8B3288552}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08157F54-A68D-4AB5-9261-3B6501B7159D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08157F54-A68D-4AB5-9261-3B6501B7159D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08157F54-A68D-4AB5-9261-3B6501B7159D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08157F54-A68D-4AB5-9261-3B6501B7159D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

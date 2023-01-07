@@ -38,7 +38,6 @@ namespace Delegate_2//委托的使用方式:1.模板方法(委托有返回值),2
     }
 
 
-
     class Product
     {
         private string name;

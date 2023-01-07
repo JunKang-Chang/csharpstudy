@@ -13,7 +13,7 @@ namespace TestException
         {
 
 #region 测试系统异常
-            Console.WriteLine("输入一个数字：");
+            Console.WriteLine("输入一个数字：");//如果输入的不是数字则抛出异常
             int? i = null;
 
             try
@@ -40,6 +40,8 @@ namespace TestException
 
             #region 自定义异常
 
+
+            //因为异常的抛出格式要new一个exception类的对象,所以用自定义异常的话,必须先创建一个类继承系统的exception异常类和message属性(用来显示错误消息)
             Console.WriteLine("输入一个1-5的数字：");
             int? j = null;
             //有多种异常情况，则由细到粗，exception类兜底
